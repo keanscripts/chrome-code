@@ -78,6 +78,13 @@ local Button = Tab:CreateButton({
     -- The function that takes place when the button is pressed
     end,
  })
+local Tab = Window:CreateTab("Misc", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+    Name = "Chat Bypass (P)",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Chat%20Bypass'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
 local Tab = Window:CreateTab("Avatar", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Client")
 local Button = Tab:CreateButton({
