@@ -1,0 +1,101 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Chromosphere",
+   LoadingTitle = "Welcome!",
+   LoadingSubtitle = "You have been chromify'd!",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "kggDYVVAtM", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Chromosphere",
+      Subtitle = "Key System",
+      Note = "Join the discord (discord.gg/sirius)",
+      FileName = "SiriusKey",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "beam_kids"
+   }
+})
+--Aim Tab
+local Tab = Window:CreateTab("Aim", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Best Lock")
+-- Butons
+local Button = Tab:CreateButton({
+   Name = "Smooth Camlock (E)",
+   Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Tenaki%20Camlock'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+    Name = "Silent Aim (Q)",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Tenaki%20Camlock'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Section = Tab:CreateSection("Streamable/Legit")
+local Button = Tab:CreateButton({
+    Name = "Streamable Silent Aim",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Earth%20Streamable'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Button = Tab:CreateButton({
+    Name = "Streamable Smooth Camlock (E)",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Tenaki%20Camlock'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Tab = Window:CreateTab("Anti's", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+    Name = "Underground Anti-Lock (V)",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Underground%20Anti-Lock'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Button = Tab:CreateButton({
+    Name = "Anti-Fling",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Anti-Fling'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Button = Tab:CreateButton({
+    Name = "Anti-Bag",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Anti-'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Button = Tab:CreateButton({
+    Name = "No Jump Cooldown",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/No%20Jump%20Cooldown'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Tab = Window:CreateTab("Avatar", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Client")
+local Button = Tab:CreateButton({
+    Name = "Headless",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Headless'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Button = Tab:CreateButton({
+    Name = "Korblox",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Korblox'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+local Section = Tab:CreateSection("FE")
+local Button = Tab:CreateButton({
+    Name = "Headless (YOU NEED SCARF)",
+    Callback = loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Korblox'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
